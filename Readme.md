@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Svetlana Kuznetsova](https://up.htmlacademy.ru/htmlcss/29/user/1534105).
-* Наставник: `Неизвестно`.
+* Наставник: [Егор глебов](https://htmlacademy.ru/profile/beast).
 
 ---
 
