@@ -1,0 +1,140 @@
+:root {
+  --basic-white: #FFFFFF;
+  --basic-blue: #81B3D2;
+  --basic-black: #000000;
+  --basic-brown: #766357;
+  --basic-light-grey: #CACACA;
+  --basic-extra-light-grey: #F2F2F2;
+  --basic-grey: #EEEEEE;;
+  --basic-darkgrey: #A9A9A9;
+
+  --special-grey: #6A6A6A;
+  --special-light-grey: #EBEBEB;
+  --special-light-blue: #669EC0;
+  --special-blue: #5496BD;
+  --special-light-brown: #604E43;
+  --special-brown: #503E33;
+
+}
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Navigation*/
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+
+}
+.site-navigation {
+  list-style: none;
+}
+.site-navigation a {
+  color: var(--basic-black);
+}
+.site-navigation a:hover {
+  color: var(--basic-blue);
+
+}
+
+/*Reasons*/
+.section-reason {
+  background-color: var(--basic-blue);
+  color: var(--basic-white);
+  width: 400px;
+  height: 256px;
+  text-align: center;
+}
+.section-reason h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+.section-reason-gray {
+  background-color: var(--basic-grey);
+  width: 400px;
+  height: 256px;
+}
+
+/*Features*/
+.ul-features {
+  list-style: none;
+
+}
+.feature-item {
+  text-align: center;
+}
+.feature-item h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+/*Search*/
+.search {
+
+}
+.search_hotel input {
+  font: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+
+
+}
+.button {
+  font: inherit;
+  text-align: center;
+  background-color: var(--basic-blue);
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: var(--basic-white);
+  border:none;
+}
+.button:hover {
+  background-color: var(--special-light-blue);
+}
+.button:active {
+  background-color: var(--special-blue);
+}
+
+/*Footer*/
+
+.footer-contacts a {
+  color: var(--basic-black);
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.footer-social ul {
+  list-style: none;
+  text-align: center;
+
+}
+/*Social buttons*/
+.social-button {
+  color: inherit;
+  background-color: var(--basic-blue);
+}
+.social-button:hover {
+  background-color: var(--special-light-blue);
+}
+.special-button:active {
+  background-color: var(--special-blue);
+}
