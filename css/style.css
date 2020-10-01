@@ -17,8 +17,8 @@
 
 }
 
-body {
-  min-width: 960px;
+.page-body {
+  min-width: 1200px;
   margin: 0;
   padding: 0;
   font-family: "PT Sans", Arial, sans-serif;
@@ -54,29 +54,31 @@ img {
 }
 .site-navigation a:hover {
   color: var(--basic-blue);
-
+}
+.site-navigation .page-current {
+  color: var(--basic-brown);
 }
 
 /*Reasons*/
-.section-reason {
+.reason {
   background-color: var(--basic-blue);
   color: var(--basic-white);
   width: 400px;
   height: 256px;
   text-align: center;
 }
-.section-reason h3 {
+.reason h3 {
   font-size: 21px;
   line-height: 21px;
 }
-.section-reason-gray {
+.reason-gray {
   background-color: var(--basic-grey);
   width: 400px;
   height: 256px;
 }
 
 /*Features*/
-.ul-features {
+.features {
   list-style: none;
 
 }
@@ -105,7 +107,7 @@ img {
   vertical-align: middle;
   text-transform: uppercase;
   color: var(--basic-white);
-  border:none;
+  border: none;
 }
 .button:hover {
   background-color: var(--special-light-blue);
@@ -138,3 +140,68 @@ img {
 .special-button:active {
   background-color: var(--special-blue);
 }
+
+/*Filters*/
+.filters {
+  color: var(--basic-white);
+  background-color:var(--basic-black);
+}
+.filter-option {
+  list-style: none;
+}
+
+/* Catalog*/
+.sort {
+  font-size: 12px;
+  line-height: 18px;
+}
+.sort-list {
+  list-style: none;
+}
+.sort-item-current {
+  color: var(--basic-blue);
+}
+.sort-item a {
+  color: rgba(0, 0, 0, .3);
+  text-decoration: underline dashed rgba(0, 0, 0, .3);
+}
+.sort-item:hover a {
+  color: var(--basic-blue);
+}
+.sort-item:active a {
+  color: var(--basic-black);
+}
+.catalog-item {
+  background-color: var(--basic-white);
+}
+.catalog-item a {
+  color: var(--basic-black);
+}
+.catalog-item a:hover {
+  color: var(--basic-blue);
+}
+.catalog-item a:active {
+  color: rgba(0, 0, 0, .3);
+}
+
+.brown-button {
+  font: inherit;
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  background-color: var(--basic-brown);
+  text-transform: uppercase;
+  border: none;
+}
+.brown-button:hover {
+  background-color: var(--special-light-brown);
+}
+.brown-button:active {
+  background-color: var(--special-brown);
+}
+.rating-number {
+  width: 110px;
+  height: 27px;
+  background-color: var(--basic-extra-light-grey);
+}
+
