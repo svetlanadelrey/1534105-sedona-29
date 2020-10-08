@@ -44,7 +44,9 @@ img {
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
-
+}
+a.main-header-logo {
+  display: block;
 }
 .site-navigation {
   list-style: none;
@@ -117,17 +119,22 @@ img {
 }
 
 /*Footer*/
-
-.footer-contacts a {
+.footer-contacts {
   color: var(--basic-black);
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
 }
+.footer-contacts a {
+  color: var(--basic-black);
+}
 .footer-social ul {
   list-style: none;
   text-align: center;
 
+}
+.footer-copyright {
+  color: var(--basic-black);
 }
 /*Social buttons*/
 .social-button {
@@ -137,7 +144,7 @@ img {
 .social-button:hover {
   background-color: var(--special-light-blue);
 }
-.special-button:active {
+.social-button:active {
   background-color: var(--special-blue);
 }
 
@@ -204,4 +211,6 @@ img {
   height: 27px;
   background-color: var(--basic-extra-light-grey);
 }
-
+.visually-hidden {
+  font-size: 0;
+}
