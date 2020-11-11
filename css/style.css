@@ -525,12 +525,14 @@ img {
   height: 38px;
   cursor: pointer;
   background-color: var(--basic-extra-light-grey);
+  border: none;
 }
 .plus {
   width: 38px;
   height: 38px;
   cursor: pointer;
   background-color: var(--basic-extra-light-grey);
+  border: none;
 }
 .count-box-1 .minus svg {
   position: absolute;
@@ -552,11 +554,12 @@ img {
   left: 490px;
   top: 290px;
 }
-.minus rect:hover, .plus path:hover {
-  fill: var(--basic-black);
-}
-.minus rect:active, .plus path:active {
+.minus:active rect, .plus:active path {
   fill: var(--basic-blue);
+}
+.minus:hover rect, .plus:hover path{
+  fill: var(--basic-black);
+
 }
 .count-button {
   width: 38px;
@@ -853,33 +856,36 @@ img {
 .catalog-item:last-child {
   border-bottom: 1px solid var(--special-border-grey);
 }
-.catalog-item-1::before {
+.description-item-1 a::after {
   content: "";
-  position: absolute;
+  display: inline-block;
+  position: relative;
   width: 91px;
   height: 17px;
-  top: 389px;
-  left: 1399px;
+  top: 0;
+  left: 595px;
   background-image: url(../img/star.svg);
   background-repeat: space;
   background-position: 0 0;
 }
-.catalog-item-2::before {
+.description-item-2 h3::after {
   content: "";
-  position: absolute;
-  left: 1421px;
-  top: 539px;
+  display: inline-block;
+  position: relative;
+  left: 650px;
+  top: 0;
   width: 67px;
   height: 17px;
   background-image: url(../img/star.svg);
   background-repeat: space;
   background-position: 0 0;
 }
-.catalog-item-3::before {
+.description-item-3 h3::after {
   content: "";
-  position: absolute;
-  left: 1450px;
-  top: 691px;
+  display: inline-block;
+  position: relative;
+  left: 622px;
+  top: 0;
   width: 40px;
   height: 17px;
   background-image: url(../img/star.svg);
@@ -903,7 +909,6 @@ img {
 }
 .catalog-item a {
   color: var(--basic-black);
-
 }
 .catalog-item a:hover {
   color: var(--basic-blue);
